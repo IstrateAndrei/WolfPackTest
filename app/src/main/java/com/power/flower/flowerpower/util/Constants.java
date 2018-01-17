@@ -8,4 +8,5 @@ public class Constants {
 
     //RETROFIT + REST
     public final static String BASE_URL = "http://demo6216313.mockable.io/";
+    public final static String AUTHORIZATION_STRING = "Bearer";
 }

@@ -1,10 +1,12 @@
 package com.power.flower.flowerpower.data.models;
 
+import java.io.Serializable;
+
 /**
  * Created by Petre-pc on 1/16/2018.
  */
 
-public class OrderModel {
+public class OrderModel implements Serializable{
 
     private int id;
     private String description;

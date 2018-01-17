@@ -10,5 +10,7 @@ import com.power.flower.flowerpower.data.models.OrdersModel;
 public interface MainView {
 
     void displayOrders(OrdersModel orders);
+    void showProgressBar();
+    void stopProgressBar();
 
 }
